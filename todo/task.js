@@ -1,7 +1,7 @@
 const taskForm = document.querySelector('form')
 const taskInput = document.querySelector('input')
 const  taskList = document.querySelector('.tasks__list')
-console.log(taskInput)
+
 
 taskForm.addEventListener('submit', function (event){
    event.preventDefault()
